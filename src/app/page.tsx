@@ -5,7 +5,6 @@
  */
 
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Page() {
   return (
@@ -15,12 +14,11 @@ export default function Page() {
       </Head>
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row">
-          {/* <Image
-            src={"/team3602-site/team-photo.jpg"}
-            width={1920}
+          <img
+            src="https://raw.githubusercontent.com/frc3602/team3602-site/main/src/public/team-photo.jpg"
             alt="RoboMos Team 3602 Photo"
-          /> */}
-          <img src="/team3602-site/team-photo.jpg" alt="RoboMos Team 3602 Photo" />
+            className="max-w-2xl rounded-lg shadow-2xl"
+          />
           <div className="pl-12">
             <h1 className="text-5xl font-bold">RoboMos Team 3602</h1>
             <p className="py-6">
