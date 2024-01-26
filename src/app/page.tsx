@@ -15,11 +15,12 @@ export default function Page() {
       </Head>
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row">
-          <Image
+          {/* <Image
             src={"/team3602-site/team-photo.jpg"}
             width={1920}
             alt="RoboMos Team 3602 Photo"
-          />
+          /> */}
+          <img src="/team3602-site/team-photo.jpg" alt="RoboMos Team 3602 Photo" />
           <div className="pl-12">
             <h1 className="text-5xl font-bold">RoboMos Team 3602</h1>
             <p className="py-6">
