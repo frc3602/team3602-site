@@ -17,6 +17,7 @@ export default function Page() {
         <div className="hero-content flex-col lg:flex-row">
           <Image
             src={"/team3602-site/team-photo.jpg"}
+            width={1920}
             alt="RoboMos Team 3602 Photo"
           />
           <div className="pl-12">
