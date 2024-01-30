@@ -18,8 +18,8 @@ export default function Header() {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li className="px-1"><Link href="/about">About</Link></li>
               <li className="px-1"><Link href="/">News</Link></li>
-              <li className="px-1"><Link href="/">Sponsors</Link></li>
               <li className="px-1"><Link href="/">Events</Link></li>
+              <li className="px-1"><Link href="/">Sponsors</Link></li>
               <li className="px-1"><Link href="/">Resources</Link></li>
             </ul>
           </div>
@@ -29,8 +29,8 @@ export default function Header() {
           <ul className="menu menu-horizontal px-1">
             <li className="px-1"><Link href="/about">About</Link></li>
             <li className="px-1"><Link href="/">News</Link></li>
-            <li className="px-1"><Link href="/">Sponsors</Link></li>
             <li className="px-1"><Link href="/">Events</Link></li>
+            <li className="px-1"><Link href="/">Sponsors</Link></li>
             <li className="px-1"><Link href="/">Resources</Link></li>
           </ul>
         </div>
